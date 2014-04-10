@@ -1,0 +1,27 @@
+---
+abstract: 'Store chunks of logs in key/value stores.'
+author:
+  - 'Jerome Eteve <jerome.eteve@gmail.com>'
+build_requires:
+  Data::UUID: 0
+  Net::Amazon::S3: 0.59
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Log-Log4perl-Appender-Chunk
+requires:
+  Carp: 0
+  Class::Load: 0.20
+  DateTime: 0
+  Log::Log4perl: 1.42
+  Moose: 2.1005
+resources:
+  homepage: https://github.com/jeteve/l4p-appender-chunk
+  repository: https://github.com/jeteve/l4p-appender-chunk.git
+version: 0.001
