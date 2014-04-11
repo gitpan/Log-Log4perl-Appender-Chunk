@@ -1,5 +1,7 @@
 package Log::Log4perl::Appender::Chunk::Store;
-$Log::Log4perl::Appender::Chunk::Store::VERSION = '0.001';
+{
+  $Log::Log4perl::Appender::Chunk::Store::VERSION = '0.002';
+}
 use Moose;
 
 sub store{

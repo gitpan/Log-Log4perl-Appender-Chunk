@@ -1,5 +1,8 @@
 package Log::Log4perl::Appender::Chunk::Store::Memory;
-$Log::Log4perl::Appender::Chunk::Store::Memory::VERSION = '0.001';
+{
+  $Log::Log4perl::Appender::Chunk::Store::Memory::VERSION = '0.002';
+}
+
 use Moose;
 extends qw/Log::Log4perl::Appender::Chunk::Store/;
 
@@ -28,9 +31,11 @@ __END__
 
 =head1 NAME
 
-Log::Log4perl::Appender::Chunk::Store::Memory - Stores chunk in memory
+Log::Log4perl::Appender::Chunk::Store::Memory - Stores chunks in memory
 
 =head1 SYNOPSIS
+
+Fist make sure you read L<Log::Log4perl::Appender::Chunk> documentation.
 
 l4p.conf:
 

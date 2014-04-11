@@ -1,0 +1,183 @@
+==================================================
+Changes from 2013-04-11 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.002 at 2014-04-11 09:05:25 +0000
+------------------------------------------
+
+  Change: 16d307bfeb5dcbdc8e7dddf30262dde0c781e081
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-11 10:05:15 +0000
+
+    Automated next version 
+
+  Change: 94932037a7d069fa3a2256e59eb668f719b260a1
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-11 09:59:48 +0000
+
+    Added Automatic Changes generation 
+
+  Change: 71b2fec5e54d41a61a9cf47cb464ad618125ff5e
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-11 09:44:24 +0000
+
+    Better doc 
+
+  Change: 44b947df088f0f2f53ce9b1a43dc101b3328663d
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 23:41:17 +0000
+
+    Better doc 
+
+  Change: ff37ec97b063287f247d3e42809bc3ae1e339c0b
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 23:39:46 +0000
+
+    Typo 
+
+  Change: ab151bad21c50ce76c08fc05c0cd0a22b7713c41
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 23:38:43 +0000
+
+    Spelling 
+
+------------------------------------------
+version 0.001 at 2014-04-10 22:30:36 +0000
+------------------------------------------
+
+  Change: b20de81d067f09ff76365340986547bc59b4b703
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 23:30:36 +0000
+
+    Protect against re-entrance 
+
+  Change: f815e1726c2dded2584ebba3b6a5628db051f542
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 22:54:35 +0000
+
+    Pod complete 
+
+  Change: 4e6e9244bb09510c70712a6d176a3ed9cc41b90a
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-10 22:16:41 +0000
+
+    Added Memory Store 
+
+  Change: 0fe46b4cfc835b07c7e678242b853f90eedf12eb
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 18:54:47 +0000
+
+    Started doc 
+
+  Change: 227fd75f6744d7d5022030ba394fdadacefb4cc7
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 18:52:28 +0000
+
+    Prune emacs safe files 
+
+  Change: a8fe795e4c201c4f42b722b0d1ba179abceefead
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 18:49:40 +0000
+
+    Nicer build 
+
+  Change: 080161de8985335b975557a4219c8c7d6da973ba
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 18:39:07 +0000
+
+    Added stuff in dist.ini 
+
+  Change: bc95c726aa23897bb3b80a0ebb08deef268d1300
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 18:34:49 +0000
+
+    S3 now forks before uploading 
+
+  Change: 01273e6424ec38b40e69d19696b8556ad6e92eaa
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 17:03:11 +0000
+
+    Better gitignore 
+
+  Change: 2809d776657805ab2c477b66e9e5ff783d3fed78
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 17:01:59 +0000
+
+    Added documentation 
+
+  Change: b26a2d43b4cc38ff1f8d73a0fdbd58fbd448d470
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 16:49:36 +0000
+
+    Added file store options 
+
+  Change: 36f5cf96db6fae02e49f3706f4201afe9b9e0fac
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 16:19:34 +0000
+
+    Basic test for S3 store 
+
+  Change: 10d15629b812054d1eb62d093c9aaca7e0022f7a
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 15:07:52 +0000
+
+    Added s3 client 
+
+  Change: b8d42e5cd906730fc93e13e269c3d23b01fc2786
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 13:16:07 +0000
+
+    Added storage test 
+
+  Change: 0d5592675d5b4335e5b30c363b20ed15898cdae4
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 12:26:01 +0000
+
+    Complete states 
+
+  Change: 1d9448f6312573a648aae839fd8e511c21357e36
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 12:20:47 +0000
+
+    Check we can build a store 
+
+  Change: 77c4e94c6a38762927bab73011b48ce0429a5783
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 12:19:50 +0000
+
+    Check for good states 
+
+  Change: f0fad94b33e2ea6c5dea077dea39c1e61dee8331
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 12:11:20 +0000
+
+    Implemented a Null store 
+
+  Change: 44002a11aa28f7a3d27ca061fa970dd4cb4dfa7a
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 11:39:55 +0000
+
+    Moosified the appender 
+
+  Change: 58b664040ac39e834ac6e769941c3be467f60475
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 11:21:02 +0000
+
+    Good basic states 
+
+  Change: 724762cc4bc6abe6d6a1c1f4732958b2b26b64be
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 10:36:57 +0000
+
+    Basic test works 
+
+  Change: d8e378757437db6b793e1113bd91ceee50857861
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-10 10:15:58 +0000
+
+    Inception 
+
+================
+End of releases.
+================

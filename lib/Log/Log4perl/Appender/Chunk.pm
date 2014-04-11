@@ -1,5 +1,7 @@
 package Log::Log4perl::Appender::Chunk;
-$Log::Log4perl::Appender::Chunk::VERSION = '0.001';
+{
+  $Log::Log4perl::Appender::Chunk::VERSION = '0.002';
+}
 use Moose;
 
 use Carp;
@@ -189,7 +191,34 @@ recording chunks and fetch them to the storage when the key 'chunk' is unset or 
 
 =head1 SYNOPSIS
 
-=head2 with build-in store Memory
+=head2 In your code
+
+Anywhere in your code:
+
+
+  #  .. Use log4perl as usual ..
+
+  ## Start capturing Log lines in an identified Chunk
+  Log::Log4perl::MDC->put('chunk', "Your-Log-Chunk-Unique-ID-Key");
+
+  #  .. Use Log4perl as usual ..
+
+  ## Finish capturing in the identified Chunk
+  Log::Log4perl::MDC->put('chunk',undef);
+
+  #  .. Use Log4perl as usual ..
+
+Then depending on the configured store, you will be able to retrieve your log chunks
+from different places. See below.
+
+=head2 Configuration
+
+
+=head3 with built-in store Memory
+
+Reference: L<Log::Log4perl::Appender::Chunk::Store::Memory>
+
+log4perl.conf:
 
   log4perl.rootLogger=TRACE, Chunk
 
@@ -202,7 +231,7 @@ recording chunks and fetch them to the storage when the key 'chunk' is unset or 
   log4perl.appender.Chunk.layout=..
 
 
-=head2 With built-in store S3
+=head3 With built-in store S3
 
 log4perl.conf:
 
@@ -227,24 +256,13 @@ log4perl.conf:
   # Etc..
   log4perl.appender.Chunk.layout=...
 
-Anywhere in your code:
-
-
-  Log::Log4perl::MDC->put('chunk', "Your-Log-Chunk-Unique-ID-Key");
-
-  #  .. Use Log4perl just as usual ..
-
-  Log::Log4perl::MDC->put('chunk',undef);
-  # This will trigget the storage of the whole chunk of log lines under
-  # the key 'Your-Log-Chunk-Unique-ID-Key' in the configured storage.
-
 =head2 log
 
 L<Log::Log4perl::Appender> framework method.
 
 =head2 store
 
-The instance of L<Log::Log4perl::Appender::Chunk::Store> this logger used.
+The instance of L<Log::Log4perl::Appender::Chunk::Store> this logger uses.
 
 It's usually configured from the Log4perl configuration file as shown in the SYNOPSIS, but
 you can also inject it from your application code:
