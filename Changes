@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2013-04-11 00:00:00 +0000 to present.
+Changes from 2013-04-13 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2014-04-11 09:05:25 +0000
+version 0.003 at 2014-04-13 21:24:35 +0000
+------------------------------------------
+
+  Change: 2de10ffd74f3675fe60d39165071388659711dbf
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-13 13:34:05 +0000
+
+    Requires Perl 5.10 
+
+  Change: 0d69cac817cfebf1da892d07e0dac8e824fdedb7
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-13 13:27:57 +0000
+
+    Added a bit of S3 doc 
+
+  Change: a9a333fb5a11efc566f6113fb68e654dfdc73c22
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-11 12:04:12 +0000
+
+    Added doc 
+
+------------------------------------------
+version 0.002 at 2014-04-11 09:05:15 +0000
 ------------------------------------------
 
   Change: 16d307bfeb5dcbdc8e7dddf30262dde0c781e081

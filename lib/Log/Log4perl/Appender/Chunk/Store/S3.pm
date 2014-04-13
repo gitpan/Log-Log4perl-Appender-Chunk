@@ -1,8 +1,5 @@
 package Log::Log4perl::Appender::Chunk::Store::S3;
-{
-  $Log::Log4perl::Appender::Chunk::Store::S3::VERSION = '0.002';
-}
-
+$Log::Log4perl::Appender::Chunk::Store::S3::VERSION = '0.003';
 use Moose;
 extends qw/Log::Log4perl::Appender::Chunk::Store/;
 
@@ -55,6 +52,14 @@ sub _build_s3_client{
                                                               retry => $self->retry()
                                                              ));
 }
+
+=head1 NAME
+
+Log::Log4perl::Appender::Chunk::Store::S3 - Store chunks in an S3 bucket
+
+=head1 SYNOPSIS
+
+See L<Log::Log4perl::Appender::Chunk>'s synopis for an example.
 
 =head2 clone
 
