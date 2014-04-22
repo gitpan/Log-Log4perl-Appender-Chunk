@@ -1,5 +1,8 @@
 package Log::Log4perl::Appender::Chunk::Store::Null;
-$Log::Log4perl::Appender::Chunk::Store::Null::VERSION = '0.003';
+{
+  $Log::Log4perl::Appender::Chunk::Store::Null::VERSION = '0.004';
+}
+
 use Moose;
 extends qw/Log::Log4perl::Appender::Chunk::Store/;
 

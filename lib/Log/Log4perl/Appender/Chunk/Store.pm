@@ -1,10 +1,12 @@
 package Log::Log4perl::Appender::Chunk::Store;
-$Log::Log4perl::Appender::Chunk::Store::VERSION = '0.003';
+{
+  $Log::Log4perl::Appender::Chunk::Store::VERSION = '0.004';
+}
 use Moose;
 
 sub store{
     my ($self, $chunk_id , $big_message) = @_;
-    ...
+    die "sub 'store' is not Implemented in $self";
 }
 
 __PACKAGE__->meta->make_immutable();
