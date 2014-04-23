@@ -3,7 +3,23 @@ Changes from 2013-04-23 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.005 at 2014-04-23 09:25:29 +0000
+version 0.006 at 2014-04-23 12:45:02 +0000
+------------------------------------------
+
+  Change: 46207ec53573ff9d37326a49317969d412a9d495
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-23 12:28:34 +0000
+
+    Log the S3 link at INFO level 
+
+  Change: c904f05795b1cdaa0c591926d11cf8e3f88bde70
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-04-23 12:08:43 +0000
+
+    Avoid zombies with double forking 
+
+------------------------------------------
+version 0.005 at 2014-04-23 09:25:10 +0000
 ------------------------------------------
 
   Change: 2b294ac03a9387257eaec44a4f0b7ba27064cb9b

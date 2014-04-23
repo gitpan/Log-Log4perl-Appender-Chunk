@@ -25,4 +25,4 @@ requires:
 resources:
   homepage: https://github.com/jeteve/l4p-appender-chunk
   repository: https://github.com/jeteve/l4p-appender-chunk.git
-version: 0.005
+version: 0.006
