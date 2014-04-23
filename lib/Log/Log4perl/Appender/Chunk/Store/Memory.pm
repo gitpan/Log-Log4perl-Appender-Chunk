@@ -1,6 +1,6 @@
 package Log::Log4perl::Appender::Chunk::Store::Memory;
 {
-  $Log::Log4perl::Appender::Chunk::Store::Memory::VERSION = '0.006';
+  $Log::Log4perl::Appender::Chunk::Store::Memory::VERSION = '0.007';
 }
 
 use Moose;
