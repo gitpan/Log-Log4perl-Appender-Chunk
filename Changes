@@ -1,9 +1,55 @@
 ==================================================
-Changes from 2013-04-23 00:00:00 +0000 to present.
+Changes from 2013-08-07 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.007 at 2014-04-23 13:52:50 +0000
+version 0.008 at 2014-08-07 12:30:44 +0000
+------------------------------------------
+
+  Change: 1e8863303afef97709fc1d03a6cff65437113e4c
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-08-07 13:28:09 +0000
+
+    No test installing Dist::Zilla in travis 
+
+  Change: 94cac42bd5c343a06c17c3824f7e4e334a2f7ef2
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-08-07 13:26:19 +0000
+
+    Merge branch 'master' of github.com:jeteve/l4p-appender-chunk 
+
+  Change: 8097b092d5c3b2ddd70fd7f7e73c5e638cd553a2
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-08-07 13:25:39 +0000
+
+    Added doc 
+
+  Change: 8f9b987b24b2253f23f82042b41afec413008f08
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-30 23:16:28 +0000
+
+    Dist::Zilla plugin git is not compatible with perl 5.8 
+
+  Change: c70c05010b7f4b5b3e9a0e2dad0095e17313b5ad
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-30 23:09:13 +0000
+
+    Added travis.yml 
+
+  Change: d81f31b1f3c738934b631f6333b3baee58bde1c0
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-26 19:51:25 +0000
+
+    Fixed conflict 
+
+  Change: a29413077631e950dd9174a74e83c762f2099be1
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-04-17 20:12:59 +0000
+
+    No yadayada in Perl 5.10 
+
+------------------------------------------
+version 0.007 at 2014-04-23 13:40:37 +0000
 ------------------------------------------
 
   Change: 34024c9259c4e3dc717ad9320d8a8751b1e2052e

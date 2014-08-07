@@ -1,8 +1,10 @@
 package Log::Log4perl::Appender::Chunk::Store;
 {
-  $Log::Log4perl::Appender::Chunk::Store::VERSION = '0.007';
+  $Log::Log4perl::Appender::Chunk::Store::VERSION = '0.008';
 }
 use Moose;
+
+use Carp;
 
 sub store{
     my ($self, $chunk_id , $big_message) = @_;
